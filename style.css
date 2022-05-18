@@ -1,0 +1,26 @@
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+  --title-font: 'Roboto', sans-serif;
+  --body-font:'Poppins', sans-serif;
+}
+
+
+
+#home {
+  background-color: var(--background);
+  color: var(--text-base)
+}
+
