@@ -17,10 +17,24 @@
   --body-font:'Poppins', sans-serif;
 }
 
+body{
+  height: 100%;
+  width: 100%;
+  background-color: var(--background);
+}
+
 
 
 #home {
-  background-color: var(--background);
-  color: var(--text-base)
+  color: var(--text-base);
+  width: 50%; 
+  float: left; 
 }
 
+
+
+img {
+float: right;
+width: 50%;
+height: 100%;
+}
