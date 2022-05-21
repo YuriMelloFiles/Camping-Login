@@ -34,7 +34,11 @@ body{
   
 }
 
-
+input {
+  background-color: var(--form-background);
+  border: none;
+  color: var(--text-base);
+}
 
 #home {
   color: var(--text-base);
@@ -90,7 +94,10 @@ height: 100%;
   
   
   
+  
 }
+
+
 
 fieldset{
   margin-top: 3px;
@@ -99,18 +106,43 @@ fieldset{
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 
   
 }
 
-label img {
+fieldset:hover{
+  margin-top: 3px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+}
+
+fieldset:hover  label i{
+  
+  color: var(--primary-color)
+}
+
+
+label i {
   width: 20px;
-  margin-top: -6px;
+  margin-top: 3px;
   margin-right: 5px;
+  color: var(--text-base);
   
 }
 
 label a {
   align-items: right;
+}
+
+
+input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  color: var(--text-)
 }
