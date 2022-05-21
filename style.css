@@ -91,3 +91,17 @@ height: 100%;
   
   
 }
+
+.input-area{
+  margin-top: 3px;
+  border: 1px solid var(--text-base);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+label img {
+  width: 20px;
+  margin-top: -6px;
+  margin-right: 5px;
+  
+}
