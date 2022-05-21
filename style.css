@@ -92,11 +92,16 @@ height: 100%;
   
 }
 
-.input-area{
+fieldset{
   margin-top: 3px;
   border: 1px solid var(--text-base);
   border-radius: 4px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+
+  
 }
 
 label img {
@@ -104,4 +109,8 @@ label img {
   margin-top: -6px;
   margin-right: 5px;
   
+}
+
+label a {
+  align-items: right;
 }
