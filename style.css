@@ -40,6 +40,18 @@ input {
   color: var(--text-base);
 }
 
+a {
+   text-decoration: none;
+   color: var(--primary-color);
+   font: 500 1rem var(--body-font);
+}
+
+label {
+   color: var(--text-base);
+   font: 400 1rem var(--title-font);
+
+}
+
 #home {
   color: var(--text-base);
   width: 50%; 
@@ -101,7 +113,7 @@ height: 100%;
 
 fieldset{
   margin-top: 3px;
-  border: 1px solid var(--text-base);
+  border: 2px solid var(--text-base);
   border-radius: 4px;
   padding-top: 10px;
   padding-left: 10px;
@@ -113,7 +125,7 @@ fieldset{
 
 fieldset:hover{
   margin-top: 3px;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   border-radius: 4px;
   padding-top: 10px;
   padding-left: 10px;
@@ -152,3 +164,23 @@ input:focus{
   align-items: center;
   justify-content: space-between;
 }
+
+ button {
+  
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: var(--form-background);
+  font: 500 1rem var(--title-font);
+  padding:1rem 8.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  font: 500 .9rem var(--body-font);
+  color: var(--primary-color);
+}
+.align {
+  text-align: center;
+}
+
