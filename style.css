@@ -182,9 +182,15 @@ p {
 }
 .align {
   text-align: center;
+  align-items: center;
+  
 }
 
-
+.container_button {
+  margin-bottom: 1.6875rem ;
+  align-items: center;
+  text-align: center;
+}
 
 /* Responsive styles */
 
@@ -214,5 +220,21 @@ p {
     
   }
 
+  button {
+  
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--form-background);
+    font: 500 1rem var(--title-font);
+    padding:1rem 7rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container_button {
+    margin-bottom: 1.6875rem ;
+    align-items: center;
+    text-align: center;
+  }
   
 }
