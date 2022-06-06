@@ -5,7 +5,6 @@
 ### Ferramentas utilizadas para o desenvolvimento:
 
 ├── HTML5 <br>
-├── CSS3 <br>
 └── JavasScript
 
 Por Yuri Mello.
@@ -18,8 +17,8 @@ Por Yuri Mello.
      
   </tr>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/58647179/168407298-1329a6ee-17e4-4d26-ac25-895a10f06747.png" ></td>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/58647179/168407317-e9b3b727-c208-4212-9e47-a3f3a1e7daa0.png" ></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/58647179/172081350-94da3d94-f2a5-4309-a7d0-fcd6bb8f24a3.png" ></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/58647179/172081553-549b4427-da3c-424c-b860-58619c7ebb4a.png" ></td>
     
   </tr>
  </table>
